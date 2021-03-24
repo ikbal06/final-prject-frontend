@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { ToastrService } from 'ngx-toastr';
 import { CartService } from 'src/app/services/cart.service';
-import { CartItem } from '../models/cartItem';
-import { Product } from '../models/product';
+import { CartItem } from '../../models/cartItem';
+import { Product } from '../../models/product';
 
 @Component({
   selector: 'app-cart-summary',

@@ -1,9 +1,9 @@
 import { Injectable } from '@angular/core';
 import{HttpClient}from "@angular/common/http"
 import { Observable } from 'rxjs';
-import { Product } from '../components/models/product';
-import { listResponseModel } from '../components/models/listResponseModel';
-import { ResponseModel } from '../components/models/responseModel';
+import { Product } from '../models/product';
+import { listResponseModel } from '../models/listResponseModel';
+import { ResponseModel } from '../models/responseModel';
 
 
 @Injectable({
